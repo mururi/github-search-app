@@ -11,9 +11,7 @@ const repos = data.map(repo => {
       let user =document.createElement('div')
       user.classList.add = ("col -md-3")
       user.innerHTML = ` <div>
-    <div class="row">
-    <div class="col -md-3">
-    
+  <a href="${repo.owner.html_url}">${repo.owner.login}</a>
    </div>`
    userContent.appendChild(userName);
      });
