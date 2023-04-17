@@ -4,21 +4,21 @@ document.addEventListener("DOMContentLoaded", () =>{
   .then(data => {
   
   })
-  console.log(userContent)
   const userContent = "https://api.github.com/users/octocat/repos";
+  console.log(userContent)
 const repos = data.map(repo => {
      data.users.forEach(user => {
       let user =document.createElement('div')
       user.classList.add = ("col -md-3")
       user.innerHTML = ` <div>
-    <div class ="user-body>
-      <h5 class="user-title">${user.title}</h5>
-      <h6>${user.content}</h6>
-      <p class="user-text">${user.description}</p>
-      </div>
+    <div class="row">
+    <div class="col -md-3">
+    
    </div>`
-   userContent.appendChild(user);
+   userContent.appendChild(userName);
      });
  
      })  
  })
+
+ 
