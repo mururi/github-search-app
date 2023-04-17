@@ -1,9 +1,7 @@
 .heading-1 {
     color: blue;
   }
-  body {
-    background-color: black;
+  container-fluid {
+    background-color: rgb(66, 27, 173);
   }
-  search button {
-    background-color:aqua
-  }
+  
